@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "Dailo Daily See Us",
     "Mulchowk Restaurant",
     "Cosmo Restaurant And Bar",
-    "Da Aloo",
+    "Da Aloo Restaurant",
     "Manoj Food",
   ];
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
     },
     {
-      name: "Da Aloo",
+      name: "Da Aloo Restaurant",
       contact: "977-9847375984",
       address: "Lalitpur, Nepal",
       categories: [
