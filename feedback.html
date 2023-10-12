@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file here if needed -->
+    <style>
+        /* Add your CSS styles for the feedback page here */
+        /* Add your CSS styles for the feedback page here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+#feedbackForm {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Feedback</h1>
+    </header>
+    <main>
+        <section id="feedbackForm">
+            <h2>We'd Love to Hear Your Feedback</h2>
+            <form action="thankyou.html"> <!-- Redirect to a "Thank You" page -->
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Feedback:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Menues Finder</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </footer>
+</body>
+</html>

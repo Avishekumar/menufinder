@@ -1,0 +1,504 @@
+/* Reset default browser styles */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Box Styles */
+#search {
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#searchInput {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+#shopSuggestions {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Shop Information Box Styles */
+#shopNameBox {
+    display: none;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#selectedShopName {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Product List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.category-title {
+    background-color: #0cb444;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Search Button Styles */
+#searchButton {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#searchButton:hover {
+    background-color: #357ae8;
+}
+
+/* Contact Section Styles */
+#contact {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 5px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+}
+
+/* Price Update Section Styles */
+#priceUpdate {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#priceUpdate h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#priceUpdate p {
+    margin-bottom: 10px;
+}
+
+/* Contact Button Styles */
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #787d85;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-button:hover {
+    background-color: #357ae8;
+}
+
+/* Footer Styles */
+footer p {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Search Box Styles */
+a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: #555555;
+}
+/* Reset default browser styles */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Common Styles */
+header, main, #shopNameBox, ul, #contact, #priceUpdate {
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Search Box Styles */
+#search {
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#searchInput {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+#shopSuggestions {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Shop Information Box Styles */
+#shopNameBox {
+    display: none;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#selectedShopName {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Product List Styles */
+.category-title {
+    background-color: #0cb444;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Search Button Styles */
+#searchButton, .contact-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#searchButton {
+    background-color: #4285f4;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.contact-button {
+    background-color: #787d85;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#searchButton:hover, .contact-button:hover {
+    background-color: #357ae8;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 5px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+}
+
+/* Price Update Section Styles */
+#priceUpdate {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+#priceUpdate h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#priceUpdate p {
+    margin-bottom: 10px;
+}
+
+/* Footer Navigation Styles */
+footer p {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* General Link Styles */
+a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+/* Hover Styles for Links */
+a:hover {
+    background-color: #555555;
+}
+
+/* Hover Styles for Footer Navigation Links */
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+
+ul#searchResults {
+    list-style: none;
+    padding: 0;
+}
+
+ul#searchResults .shop-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+ul#searchResults .shop-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul#searchResults .shop-item strong {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
