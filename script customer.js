@@ -12,7 +12,7 @@ const shopData = [
     ],
   },
   {
-    name: "Da Aloo",
+    name: "Da Aloo Restaurant",
     contact: "977-9847375984",
     address: "Lalitpur, Nepal",
     categories: [
